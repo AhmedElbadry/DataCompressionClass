@@ -1,4 +1,7 @@
 # depslib dependency file v1.0
-1519515599 source:c:\users\khaled\documents\c++ projects\test_fac\main.cpp
+1519568788 source:c:\users\khaled\documents\c++ projects\test_fac\main.cpp
+	<bits/stdc++.h>
+
+1519568788 source:c:\users\x\desktop\old\test_fac_ori\main.cpp
 	<bits/stdc++.h>
 
