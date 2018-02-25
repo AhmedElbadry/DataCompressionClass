@@ -74,9 +74,16 @@ int main()
 
     //3rd step
     for(int i = 0 ; i < (int)second.size() ; i++){
-        t1 = t0 = "";
+        if(i){
+            six = m['\n'];
+            t1 = t0 = six.to_string() ;
+        }else{
+            t1 = t0 = "";
+        }
+
         c1 = c0 = 0;
         for(int j = 0 ; j < (int)second[i].size() ; j++){
+
             if(second[i][j] == '0'){
                 c0++;
                 if(c1){
@@ -146,7 +153,6 @@ int main()
             else
                 cout<<c;
         }
-        cout<<endl;
     }
 
     return 0;
