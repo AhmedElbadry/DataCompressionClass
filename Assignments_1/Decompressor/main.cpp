@@ -9,6 +9,7 @@ int main()
     freopen("output.txt", "w", stdout);
 
     bitset<8> eight;
+    bitset<7> seven;
     bitset<6> six;
     bitset<3> three;
     bitset<2> two;
@@ -32,7 +33,6 @@ int main()
     m[53] = '<';
     m[54] = '>';
     m[55] = ' ';
-    //m[56] = '\n';
 
     //1st step
     while(getline(cin , s)){
@@ -40,6 +40,8 @@ int main()
         t = "";
         for(int i = 1 ; i<(int)s.size() ; i++){
             c = s[i] - 33;
+            if(c >= 157)
+                c -= 5;
             for(int k = ((i+1 ==(int)s.size()) ? (1<<(mod-1)) : 32) ; k ; k/=2){
                 if(c >= k){
                     t += '1';
@@ -91,7 +93,6 @@ int main()
                 t += (two == 1 ? '0' : '1');
             }
         }
-        //cout<<t<<endl;
         second.push_back(t);
     }
 
@@ -103,7 +104,9 @@ int main()
             ss<<second[i].substr(0,6);
             second[i] = second[i].substr(6);
             ss>>six;
-            if(six == 56)
+            if(six == 57)
+                t += "\n";
+            else if(six == 56)
                 t += "<>";
             else if(six == 0){
                 ss.clear();
@@ -115,7 +118,6 @@ int main()
             else
                 t += m[six.to_ulong()];
         }
-        //cout<<t<<endl;
         third.push_back(t);
     }
 
@@ -131,7 +133,8 @@ int main()
 
             else if(flag){
                 flag = 0;
-                st.push(s);
+                if(s != "br")
+                    st.push(s);
                 s = "";
             }
 

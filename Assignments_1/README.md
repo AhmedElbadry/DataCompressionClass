@@ -49,7 +49,6 @@ To determine which type of compressing we applied on a string, we will add a 2-b
 
 ##### input
 ```
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -99,18 +98,60 @@ To determine which type of compressing we applied on a string, we will add a 2-b
 </html>
 
 
-
 ```
 
 
 ##### output
 
 ```
-
-6.1#&[FW\/J`=B1UT<H5B1UT<H5A5%4<HDH5)]2H<H5A!SWCOHGXO"#-&YZV5"#-&WZXXV53WZXXXXV5)W>0.1"/:YZXXXXV5)W>0/5"$5YZXXXXV5)W>06/53:YZXXYZXXV53WZXXXXV5%W<-'3&%4XA655&3,*45&YZXXXXV5%WH"3*"X</%&34YZXXXXV5%WB&3."/:YZXXYZXXV53WZXXXXV5%W>&/530X$0.&3$*"-XH0$5&;6."YZXXXXV5%WA3"/$*4$0X>)"/(YZXXXXV5%WH&9*$0YZXXYZXXV53WZXXXXV5%W@3/45XC"/%&-YZXXXXV5%WM0-"/%XH&/%&-YZXXXXV5%W<6453*"YZXXYZXXV53WZXXXXV5%WD4-"/%XO3"%*/(YZXXXXV5%WC&-&/X=&//&55YZXXXXV5%WPFYZXXYZXXV53WZXXXXV5%WG"6()*/(X="$$)64XR*/&$&--"34YZXXXXV5%WT04)*XO"//".63*YZXXXXV5%W>"/"%"YZXXYZXXV53WZXXXXV5%WH"(";;*/*X<-*.&/5"3*XM*6/*5*YZXXXXV5%WB*07"//*XM07&--*YZXXXXV5%WD5"-:YZXXYZYZYZY
+4.1#&[FW\/J`=B1UT'
+2.3&$4.#
+2.3"12.#
+2/!
+2.1DR'>#
+4.3!$,;+[?<?Y%)Q8)
+2.6!1D">#
+2.^^6%N#
+2.^^^^6#.H4T5!4G?!
+2.^^^^6#.H4TF!1V/!
+2.^^^^6#.H4V4F%G?!
+5;X1
+2.^^6%N#
+2.^^^^6".GT"EB2%^Y&6&"5CS5V"?!
+2.^^^^6".JQ5C1>WTB"5E_!
+2.^^^^6".I25D14G?!
+5;X1
+2.^^6%N#
+2.^^^^6".H24F%D^QTT25AS14.ZTQV"7F41?!
+2.^^^^6".I%A4AS5QT^X3!4B_!
+2.^^^^6".JR7#1T_!
+5;X1
+2.^^6%N#
+2.^^^^6".HUDEV.YA4B"4/!
+2.^^^^6".L$T!4B.ZR4B"4/!
+2.^^^^6".GV5V%C1?!
+5;X1
+2.^^6%N#
+2.^^^^6".IUT!4B.\EA2#4B_!
+2.^^^^6".IB4"4NX"4DB6&/!
+2.^^^^6".LZ?!
+5;X1
+2.^^6%N#
+2.^^^^6".JA62S#4B^X!1QS&5^]34B1R4$!5E_!
+2.^^^^6".MTUS#>\A4DA465C?!
+2.^^^^6".H14A2!?!
+5;X1
+2.^^6%N#
+2.^^^^6".JQ2Q7GC4C>WT#424F!5C>\#64C6#?!
+2.^^^^6".I34VA4DC>\$VB4$#?!
+2.^^^^6".IV!4'?!
+5;X1
+2/!
+2/!
+2/!
 
 ```
 
 
 ## Conclusion
-We have a compression ratio of .76
+We have a compression ratio of .92 so far
